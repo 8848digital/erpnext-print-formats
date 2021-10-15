@@ -18,8 +18,9 @@ def prepare_options(html, options):
 	if not options.get("margin-right"):
 		options['margin-right'] = '1mm'
 
+
 	if not options.get("margin-left"):
-		options['margin-left'] = '1mm'
+		options['margin-left'] = '1mm'	
 
 	html, html_options = read_options_from_html(html)
 	options.update(html_options or {})
