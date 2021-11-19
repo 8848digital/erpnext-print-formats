@@ -9,10 +9,10 @@ app_color = "grey"
 app_email = "mani.v@ascratech.in"
 app_license = "MIT"
 
-# override for margin issue in pdf
-from frappe.utils import pdf
-from erpnext_print_formats.pdf import prepare_options
-pdf.prepare_options = prepare_options
+# # override for margin issue in pdf
+# from frappe.utils import pdf
+# from erpnext_print_formats.pdf import prepare_options
+# pdf.prepare_options = prepare_options
 
 # Includes in <head>
 # ------------------
